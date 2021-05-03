@@ -10,6 +10,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 img {
@@ -122,4 +124,40 @@ main {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 2em;
+    padding-left: 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left-links li,
+.footer-right-links li {
+    margin-left: 2em;
+}
+
+footer nav div {
+    display: flex;
+}
+
+footer a {
+    color: #70757a;
+}
+
+.footer-center-links img {
+    height: 14px;
 }
