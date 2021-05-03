@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    margin: 1.5em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1em;
+}
+
+header svg {
+    width: 24px;
+    margin-top: -4px;
+    fill: #5f6368;
+}
+
+header nav li:nth-child(3) {
+    margin-left: 1em;
+}
+
+.right-nav a {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.right-nav .signin-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 0.7em 1.8em;
+    border-radius: 5px;
+}
+
+.right-nav .signin-btn:hover {
+    box-shadow: rgba(66, 133, 244, 0.3) 0px 1px 2px 0px, rgba(66, 133, 244, 0.15) 0px 1px 3px 1px;
+    background: linear-gradient(90deg, #4387fd, #4683ea);
+    text-decoration: none;
+}
